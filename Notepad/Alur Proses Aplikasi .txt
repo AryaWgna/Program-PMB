@@ -1,0 +1,3 @@
+Alur Proses Aplikasi 
+
+wajib memasukkan username dan password agar bisa login untuk saat ini operasi login nya hanya menggunakan validasi dari login.ts jadi yang penting hanya ada isinya saja belum memakai database
