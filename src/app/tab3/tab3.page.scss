@@ -1,0 +1,45 @@
+/* Styling untuk header */
+ion-header {
+    --background: red; /* Ubah latar belakang header menjadi gradient merah */
+  }
+  
+  /* Styling untuk content */
+  ion-content {
+    --ion-background-color: white;
+  }
+  
+  
+  /* Styling untuk form-group */
+  .form-group {
+    --background: white; /* Ubah latar belakang form-group menjadi putih */
+  }
+  
+  /* Styling untuk ion-list */
+  ion-list {
+    --background: white; /* Ubah latar belakang ion-list menjadi putih */
+  }
+  
+  /* Styling untuk ion-label */
+  ion-label {
+    color: #000000; /* Ubah warna teks ion-label menjadi hitam */
+  }
+  
+  /* Styling untuk ion-input */
+  ion-input {
+    color: #000000; /* Ubah warna teks ion-input menjadi hitam */
+  }
+  
+  /* Styling untuk ion-select */
+  ion-select {
+    color: #000000; /* Ubah warna teks ion-select menjadi hitam */
+  }
+  ion-list{
+         
+    background: var(--ion-color-primary);
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 3vh;
+    -webkit-border-radius: 0 0 25px 25px;
+    -moz-border-radius: 0 0 20px 20px;
+    -ms-border-radius: 0 0 20px 20px;
+    -o-border-radius: 0 0 20px 20px;
+  }

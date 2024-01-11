@@ -1,0 +1,34 @@
+ion-content {
+    --background: url('/assets/putih.PNG') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:center;
+  }
+  ion-searchbar{
+    background-color: white;
+  }
+
+  ionInput{
+color: black;
+  }
+  ion-searchbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    --ion-background-color: white;
+  }
+  
+  /* Styling for the search input */
+  ion-searchbar .searchbar-input {
+    /* Sesuaikan gaya kotak pencarian */
+    /* Contoh: */
+    background-color: #f7f7f7; /* Warna latar belakang */
+    border-radius: 8px; /* Sudut border */
+    padding: 10px; /* Padding */
+    margin-bottom: 20px; /* Jarak bawah */
+  }
+  ion-list {
+    --background: white; /* Ubah latar belakang ion-list menjadi putih */
+  }
+  
